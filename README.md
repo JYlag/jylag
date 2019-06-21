@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jylag-1.0.0
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
@@ -50,3 +51,7 @@ To add a custom directory to your theme-gem, please edit the regexp in `jylag-1.
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+=======
+# jylag
+jylag's website 
+>>>>>>> a4328c71118833d56468367a7e31070d2f50720f
