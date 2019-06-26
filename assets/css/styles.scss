@@ -1,6 +1,8 @@
 ---
 ---
 @import "main";
+@import "_foundation.scss";
 
 // HEADER STYLING IMPORTS
 @import './header/nav';
+@import './header/header';

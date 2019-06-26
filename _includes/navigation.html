@@ -1,7 +1,19 @@
-<nav>
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav-item"{% endif %}>
-        {{ item.name }}
-    </a>
-    {% endfor %}
+<nav id="main-header">
+    <div id="main-navigation-container" class="grid-x align-middle">
+        <div class="cell large-4"></div>
+        <div class="cell large-4 nav-list-container">
+            <ul class="menu align-center">
+            {% for item in site.data.navigation %}
+            <li>
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav-item"{% endif %}>
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            </ul>
+        </div>
+        <div class="cell large-4">
+            <a href="/"><img src="/assets/images/test.svg" id="logo"></a>
+        </div>
+    </div>
 </nav>

@@ -1,5 +1,28 @@
 
+#main-navigation-container {
+    border: 0px black solid;
+    margin: 0px 5%;
+}
+
 // Navigation bar's current selected item
 .current-nav-item {
     color: green;
 }
+
+//  Main logo styling
+#logo {
+    width: 150px;
+    height: 75px;
+    vertical-align: middle;
+    float: right;
+}
+
+.nav-list {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-list-container {
+    justify-content: center;
+}
+

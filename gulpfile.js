@@ -9,7 +9,7 @@ gulp.task('browser-sync', function() {
     gulp.watch('_site/**/*.*').on('change', browserSync.reload);
 });
 
-gulp.task('serve', shell.task('bundle exec jekyll serve'));
+gulp.task('serve', shell.task('bundle exec jekyll serve --watch'));
 
 gulp.task('default', gulp.series('build', 'browser-sync', 'serve'));
  
